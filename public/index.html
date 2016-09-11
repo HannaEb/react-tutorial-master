@@ -24,13 +24,20 @@
           );
         }
       });
+      var CommentList = React.createClass({
+        render: function() {
+          return (
+            <div className="commentList">
+            Hello, world! I am a comment list.
+            </div>
+          );
+        }
+      });
+
       ReactDOM.render(
         <CommentBox />,
         document.getElementById('content')
       );
-
-
-
     </script>
   </body>
 </html>
